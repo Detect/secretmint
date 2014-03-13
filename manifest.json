@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "The Secret for Mint",
+  "description": "Visualize and attract wealth.",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs", "https://wwws.mint.com/*"
+  ],
+  "background": {
+    "scripts": ["build/background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
